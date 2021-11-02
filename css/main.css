@@ -48,6 +48,12 @@ html, body, p {
     margin: 1px 7px;
 }
 
+@media (max-width: 768px) {
+    .firstScreen__big {
+        font-size: 30px;
+    }
+}
+
 .firstScreen {
     height: 100%;
     width: 100%;
