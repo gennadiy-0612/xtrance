@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Aristotelica Pro Display Extralight";
+    src: url("https://fontsme.com/wp-data/a/698/19698/file/zetafonts-aristotelica-pro-display-extralight.otf") format("woff"),
+    url("https://fontsme.com/wp-data/a/698/19698/file/zetafonts-aristotelica-pro-display-extralight.otf") format("opentype"),
+    url("https://fontsme.com/wp-data/a/698/19698/file/zetafonts-aristotelica-pro-display-extralight.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("./fonts/ofont.ru_Bebas Neue.ttf") format("ttf");
+}
+
+.BebasNeue {
+    font: normal bold 75px/75px "Bebas Neue", "Arial Narrow", serif;
+}
+
+.fontAristotelica {
+    font: normal 100 24px/24px "Aristotelica Pro Display Extralight", sans-serif;
+}
+
+.colorBlue {
+    color: #332792;
+}
+
+.colorGray {
+    color: #242023;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.flexRaw {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ball {
+    height: 34px;
+    width: 34px;
+    margin: 1px 7px;
+}
+
+.firstScreen {
+    height: 100%;
+    width: 100%;
+    background: url("../img/screenoneback.png") center right no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.firstScreen__center {
+    display: flex;
+    flex-direction: column;
+    min-height: 60%;
+    padding: 7% 40% 0 6%;
+    min-width: 47%;
+}
+
+.firstScreen__big {
+    padding: 22px 10px 30px;
+    transform: scale(1, 1.4);
+    min-width: 670px;
+}
+
+.titleSup {
+    font-size: 24px;
+}
+
+.titleBig {
+    font-weight: 900;
+    font-stretch: condensed;
+    font-size: 60px;
+}
+
+.firstScreen__p {
+    padding: 5px 10% 15px 8px;
+    line-height: 38px;
+    letter-spacing: -1.1px;
+}
+
+.time {
+    padding: 24px 0 0;
+}
+
+.time__p {
+    font-weight: bold;
+}
+
+.clock {
+    height: 40px;
+    width: 40px;
+    margin: 0 7px;
+}
