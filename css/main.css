@@ -50,7 +50,7 @@ html, body, p {
 
 @media (max-width: 768px) {
     .firstScreen__big {
-        font-size: 30px;
+        font-size: 9.5vw;
     }
 }
 
